@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Feedback</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header and navigation (same as before) -->
+    <header id="main-header">
+                        <div class="logo-slider">
+  <div class="logo-track">
+    <!-- Original set -->
+    <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/960px-C_Programming_Language.svg.png" alt="C"></div>
+    <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png" alt="C++"></div>
+    <div class="logo-item"><img src="https://education.oracle.com/file/general/p-80-java.png" alt="Java"></div>
+    <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="JavaScript"></div>
+    <div class="logo-item"><img src="https://skillforge.com/wp-content/uploads/2020/10/javascript.png" alt="Python"></div>
+    <div class="logo-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcii4ml1nCktu4Yu9pGTbxsXA1xaJ_0v12mg&s" alt="HTML"></div>
+    <div class="logo-item"><img src="https://www.bryan-myers.com/images/4x3/css.png" alt="CSS"></div>
+
+    <!-- Duplicate set for seamless infinite loop -->
+    <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/960px-C_Programming_Language.svg.png" alt="C"></div>
+    <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png" alt="C++"></div>
+    <div class="logo-item"><img src="https://education.oracle.com/file/general/p-80-java.png" alt="Java"></div>
+    <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="JavaScript"></div>
+    <div class="logo-item"><img src="https://skillforge.com/wp-content/uploads/2020/10/javascript.png" alt="Python"></div>
+    <div class="logo-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcii4ml1nCktu4Yu9pGTbxsXA1xaJ_0v12mg&s" alt="HTML"></div>
+    <div class="logo-item"><img src="https://www.bryan-myers.com/images/4x3/css.png" alt="CSS"></div>
+
+  </div>
+</div>
+
+
+
+        <h1><b>FEEDBACK FORM</b></h1>
+       <nav class ="navbar">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="feedbackform.html">Feedback Form</a></li>
+        </ul>
+
+    </nav>
+      
+    </header>
+
+
+      
+
+        <!-- New feedback form section -->
+        <section class="feedback-section">
+            <h2>Send Us Your Feedback</h2>
+            <p>We'd love to hear your thoughts about our blog!</p>
+            <form id="feedback-form" action="#" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                    </div>
+                </div>
+
+
+
+                    <label for="rating">Rate this website:</label>
+    <br>
+    <input type="radio" name="rating"> Excellent
+    <br>
+    <input type="radio" name="rating"> Good
+    <br>
+    <input type="radio" name="rating"> Average
+    <br>
+    <input type="radio" name="rating"> Poor
+
+
+
+<br>
+<br>
+      <label for="Favourite">What did you like the most:</label>
+    <select name="section">
+        <option>Choice of Languages</option>
+        <option>Content</option>
+        <option>Intuititive Navigation</option>
+        <option>Structure</option>
+        <option>feaures</option>
+    </select>
+                <div class="form-group">
+                    <label for="feedback-type">Feedback Type</label>
+                    <select id="feedback-type" name="feedback-type" required>
+                        <option value="" disabled selected>Select a category</option>
+                        <option value="suggestion">Suggestion</option>
+                        <option value="compliment">Compliment</option>
+                        <option value="issue">Report an issue</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your feedback..." required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+   <div class="pagination">
+         <a href=""><</a>
+        <a href="" class="active">1</a>
+        <a href="blog.html">2</a>
+        <a href="about.html">3</a>
+        <a href="contact.html">4</a>
+        <a href="feedbackform.html">5</a>
+         <a href="">></a>
+    </div>
+    </footer>
+</body>
+</html>
